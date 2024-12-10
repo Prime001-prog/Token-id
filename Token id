@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNB Token ID Withdrawal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About BNB Token ID</a></li>
+                <li><a href="#purchase">Purchase BNB Token ID</a></li>
+                <li><a href="#withdrawal">Withdrawal</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to BNB Token ID Withdrawal</h1>
+            <p>Learn more about BNB Token ID and how to withdraw it.</p>
+        </section>
+
+        <section id="about">
+            <h2>About BNB Token ID</h2>
+            <p>BNB Token ID is a unique identifier for Binance Coin (BNB) tokens.</p>
+        </section>
+
+        <section id="purchase">
+            <h2>Purchase BNB Token ID</h2>
+            <form id="purchase-form">
+                <label for="token-id">Enter Token ID:</label>
+                <input type="text" id="token-id" name="token-id">
+                <br><br>
+                <label for="amount">Enter Amount:</label>
+                <input type="number" id="amount" name="amount">
+                <br><br>
+                <button id="purchase-btn">Purchase</button>
+            </form>
+        </section>
+
+        <section id="withdrawal">
+            <h2>Withdrawal</h2>
+            <form id="withdrawal-form">
+                <label for="token-id-withdrawal">Enter Token ID:</label>
+                <input type="text" id="token-id-withdrawal" name="token-id-withdrawal">
+                <br><br>
+                <label for="amount-withdrawal">Enter Amount:</label>
+                <input type="number" id="amount-withdrawal" name="amount-withdrawal">
+                <br><br>
+                <button id="withdrawal-btn">Withdraw</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
